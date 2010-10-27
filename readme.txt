@@ -1,6 +1,8 @@
 Marcusoft.OutsideIn.FeatureDemo
 ===============================
 
-This is a demoproject that accompanies a blog post I wrote with a story on a developer that does Outside-in development with SpecFlow
+This a demoproject that is to be used when I hold workshops in BDD with SpecFlow. 
 
-The blog post is found here: http://www.marcusoft.net
+There's a starting point directory that we set off from and then a directory for two potential stages. 
+
+I started this as a blogpost that I wrote here: http://www.marcusoft.net/2010/10/story-on-doing-outside-in-development.html
