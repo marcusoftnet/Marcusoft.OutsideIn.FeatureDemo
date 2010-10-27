@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureDBWrapperTests", "FeatureDBWrapperTests\FeatureDBWrapperTests.csproj", "{158F971B-D069-4E45-9259-172EA71826C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureDBWrapper", "FeatureDBWrapper\FeatureDBWrapper.csproj", "{A97A3A3C-DACA-4F31-BE4F-31237B21E0AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{158F971B-D069-4E45-9259-172EA71826C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158F971B-D069-4E45-9259-172EA71826C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158F971B-D069-4E45-9259-172EA71826C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158F971B-D069-4E45-9259-172EA71826C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97A3A3C-DACA-4F31-BE4F-31237B21E0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97A3A3C-DACA-4F31-BE4F-31237B21E0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97A3A3C-DACA-4F31-BE4F-31237B21E0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97A3A3C-DACA-4F31-BE4F-31237B21E0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

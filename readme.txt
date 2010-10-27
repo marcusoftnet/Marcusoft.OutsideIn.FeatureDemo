@@ -1,8 +1,7 @@
 Marcusoft.OutsideIn.FeatureDemo
 ===============================
 
-TODO: Return great demo-data from FeatureDBWrapper
-	Write the Controller Level version of the specs
+TODO: Write the Controller Level version of the specs
 
 This a demoproject that is to be used when I hold workshops in BDD with SpecFlow. 
 
