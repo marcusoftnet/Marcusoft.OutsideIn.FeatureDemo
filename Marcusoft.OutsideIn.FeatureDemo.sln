@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marcusoft.OutsideIn.Feature
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marcusoft.OutsideIn.FeatureDemo.Tests", "Marcusoft.OutsideIn.FeatureDemo.Tests\Marcusoft.OutsideIn.FeatureDemo.Tests.csproj", "{9BA7CF7E-0AB8-479F-B414-2621F899DA01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatureDBWrapper", "FeatureDBWrapper\FeatureDBWrapper.csproj", "{A97A3A3C-DACA-4F31-BE4F-31237B21E0AD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FeatureDBWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\FeatureDBWrapper.dll</HintPath>
+    </Reference>
     <Reference Include="NSubstitute">
       <HintPath>..\lib\NSubstitute.dll</HintPath>
     </Reference>
@@ -55,10 +59,6 @@
     <Compile Include="Web\Controllers\HomeControllerTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FeatureDBWrapper\FeatureDBWrapper.csproj">
-      <Project>{A97A3A3C-DACA-4F31-BE4F-31237B21E0AD}</Project>
-      <Name>FeatureDBWrapper</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Marcusoft.OutsideIn.FeatureDemo.Web\Marcusoft.OutsideIn.FeatureDemo.Web.csproj">
       <Project>{0C043676-4B7F-41C2-9879-30A0E02C100E}</Project>
       <Name>Marcusoft.OutsideIn.FeatureDemo.Web</Name>
