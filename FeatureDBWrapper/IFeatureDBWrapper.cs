@@ -7,5 +7,6 @@ namespace FeatureDBWrapper
         IEnumerable<Feature> ByStatus(FeatureStatus status);
         IEnumerable<Feature> AllNotDone();
         IEnumerable<Feature> AllDone();
+        IEnumerable<Feature> All();
     }
 }

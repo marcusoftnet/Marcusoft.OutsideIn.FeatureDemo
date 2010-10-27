@@ -55,16 +55,52 @@ namespace Marcusoft.OutsideIn.FeatureDemo.Specs.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("See all not completed items")]
-        public virtual void SeeAllNotCompletedItems()
+        [NUnit.Framework.DescriptionAttribute("Go to homepage of the application")]
+        public virtual void GoToHomepageOfTheApplication()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("See all not completed items", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Go to homepage of the application", ((string[])(null)));
 #line 6
 this.ScenarioSetup(scenarioInfo);
 #line 7
 testRunner.When("I navigate to the homepage");
 #line 8
-testRunner.Then("I should see a list of features are not done yet");
+testRunner.Then("I should see a list of features that are not done yet");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Click link to go show all completed items")]
+        public virtual void ClickLinkToGoShowAllCompletedItems()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Click link to go show all completed items", ((string[])(null)));
+#line 10
+this.ScenarioSetup(scenarioInfo);
+#line 11
+testRunner.Given("I am on the homepage");
+#line 12
+testRunner.When("I click the link labelled \'Show done items\'");
+#line 13
+testRunner.Then("I should see a list of features that are done");
+#line hidden
+            testRunner.CollectScenarioErrors();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("Filter on search term for name")]
+        public virtual void FilterOnSearchTermForName()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Filter on search term for name", ((string[])(null)));
+#line 15
+this.ScenarioSetup(scenarioInfo);
+#line 16
+testRunner.Given("I am on the homepage");
+#line 17
+testRunner.When("I write \'Print\' in the textfield \'Filter\'");
+#line 18
+testRunner.And("I click the button labelled \'Search\'");
+#line 19
+testRunner.Then("I should see a list that contains items with name starting with \'Print\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }

@@ -41,5 +41,10 @@ namespace FeatureDBWrapper
                    where f.Status == FeatureStatus.Done
                    select f;
         }
+
+        public IEnumerable<Feature> All()
+        {
+            return _featureDb;
+        }
     }
 }

@@ -6,10 +6,17 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Features not done</h2>
+        <%:Html.ActionLink("Show done items", "Index", new {showDoneItems = true})%>
+        <br />
+        <% using (Html.BeginForm() ){%>
+        Namefilter:<%:Html.TextBox("Filter")%>  <input type="submit" id="Search" value="Search" />
+        <%}%>
+        <br />
+        <h2>Features</h2>
         <ul>
        <% foreach (var feature in Model){ %>
             <li>
-            <%: feature.Name %> Status: <%: feature.Status %>
+            Name: <%: feature.Name %>, Status: <%: feature.Status %>
             </li>
         <% }  %>
        </ul>

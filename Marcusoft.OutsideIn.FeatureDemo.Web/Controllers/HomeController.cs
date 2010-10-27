@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 using FeatureDBWrapper;
 
@@ -14,9 +16,29 @@ namespace Marcusoft.OutsideIn.FeatureDemo.Web.Controllers
             _featureDBWrapper = featureDBWrapper;
         }
 
-        public ActionResult Index()
+        public ActionResult Index(bool? showDoneItems = false, string filter = "")
         {
-            return View(_featureDBWrapper.AllNotDone());
+            IEnumerable<Feature> features;
+
+            if (!string.IsNullOrWhiteSpace(filter))
+            {
+                features = from f in _featureDBWrapper.All()
+                           where f.Name.StartsWith(filter)
+                           select f;
+            }
+            else
+            {
+                if (showDoneItems.GetValueOrDefault(false))
+                {
+                    features = _featureDBWrapper.AllDone();
+                }
+                else
+                {
+                    features = _featureDBWrapper.AllNotDone(); ;
+                }
+            }
+
+            return View(features);
         }
     }
 }
