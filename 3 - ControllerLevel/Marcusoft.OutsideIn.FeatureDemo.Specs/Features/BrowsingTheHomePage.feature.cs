@@ -23,7 +23,7 @@ namespace Marcusoft.OutsideIn.FeatureDemo.Specs.Features
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
         
-#line 1 "BrowseHomePage.feature"
+#line 1 "BrowsingTheHomePage.feature"
 #line hidden
         
         [NUnit.Framework.TestFixtureSetUpAttribute()]
@@ -65,42 +65,6 @@ this.ScenarioSetup(scenarioInfo);
 testRunner.When("I navigate to the homepage");
 #line 8
 testRunner.Then("I should see a list of features that are not done yet");
-#line hidden
-            testRunner.CollectScenarioErrors();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Click link to go show all completed items")]
-        public virtual void ClickLinkToGoShowAllCompletedItems()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Click link to go show all completed items", ((string[])(null)));
-#line 10
-this.ScenarioSetup(scenarioInfo);
-#line 11
-testRunner.Given("I am on the homepage");
-#line 12
-testRunner.When("I click the link labelled \'Show done items\'");
-#line 13
-testRunner.Then("I should see a list of features that are done");
-#line hidden
-            testRunner.CollectScenarioErrors();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Filter on search term for name")]
-        public virtual void FilterOnSearchTermForName()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Filter on search term for name", ((string[])(null)));
-#line 15
-this.ScenarioSetup(scenarioInfo);
-#line 16
-testRunner.Given("I am on the homepage");
-#line 17
-testRunner.When("I write \'Print\' in the textfield \'Filter\'");
-#line 18
-testRunner.And("I click the button labelled \'Search\'");
-#line 19
-testRunner.Then("I should see a list that contains items with name starting with \'Print\'");
 #line hidden
             testRunner.CollectScenarioErrors();
         }

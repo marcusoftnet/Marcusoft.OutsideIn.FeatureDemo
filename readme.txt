@@ -19,7 +19,7 @@ Right now our manager, Tobias, wants us to let the application list stuff from t
 
 Browsing the home page
     In order to see a list of the features of our application and their status
-    As a developer in the team
+    As a team member
     I want to see a list of the features, sorted on their different status
 
 To learn from this drill we have decided to use SpecFlow and an Outside-In approach on two levels:
@@ -33,6 +33,26 @@ Here is some tips:
 - Let the scenarios pull the implementation from you 
 - Build something “real”
 
+Here are some additional user stories that you can continue on with
+Adding new feature
+	In order to create new features
+	As a team member
+	I want to add a new feature with all it's relevant information
+
+Updating a feature
+	In order to keep information of a feature up-to-date 
+	As a team member
+	I want to be able to update the information of the feature
+
+Take on work
+	In order to track who is working on what
+	As a team member
+	I want to pull the work to me by taking responsibility of a feature
+
+Estimation
+	In order to get a idea on when all the features are done
+	As a team member
+	I want to be able to do estimations based on the time we've put in on the features
 
 
 

@@ -7,4 +7,13 @@
     {
         NotStarted, InProgress, Done
     }
+
+
+    /// <summary>
+    /// The size of features
+    /// </summary>
+    public enum FeatureSize
+    {
+        S, M, L, XL
+    }
 }
