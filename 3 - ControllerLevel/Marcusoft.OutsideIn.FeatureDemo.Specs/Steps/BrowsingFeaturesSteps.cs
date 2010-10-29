@@ -69,6 +69,8 @@ namespace Marcusoft.OutsideIn.FeatureDemo.Specs.Steps
                 features.Should().Contain.Any( f => f.Name ==  expectedFeature.Name);
                 features.Should().Contain.Any( f => f.AssignedTo ==  expectedFeature.AssignedTo);
                 features.Should().Contain.Any( f => f.HoursWorked ==  expectedFeature.HoursWorked);
+                features.Should().Contain.Any( f => f.Status ==  expectedFeature.Status);
+                features.Should().Contain.Any( f => f.Size ==  expectedFeature.Size);
             }
         }
     }
