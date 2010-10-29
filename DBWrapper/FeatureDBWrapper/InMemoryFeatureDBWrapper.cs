@@ -22,14 +22,14 @@ namespace FeatureDBWrapper
                         {
                             Name = "Login", 
                             Status = FeatureStatus.NotStarted, 
-                            FeatureDescription = "In order to be sure that the system knows who I am" + Environment.NewLine + "As a user" + Environment.NewLine + "I want to be able to login with my user name and password",
+                            Description = "In order to be sure that the system knows who I am" + Environment.NewLine + "As a user" + Environment.NewLine + "I want to be able to login with my user name and password",
                             Size = FeatureSize.S
                         },
                     new Feature
                         {
                             Name = "Register", 
                             Status = FeatureStatus.InProgress,  
-                            FeatureDescription = "In order to become a user of the site" + Environment.NewLine + "As a unregister user" + Environment.NewLine + "I want to register my personal information and a user name and password",
+                            Description = "In order to become a user of the site" + Environment.NewLine + "As a unregister user" + Environment.NewLine + "I want to register my personal information and a user name and password",
                             Size = FeatureSize.M,
                             AssignedTo = "Marcus",
                             HoursWorked = 4
@@ -38,14 +38,14 @@ namespace FeatureDBWrapper
                         {
                             Name = "Search page", 
                             Status = FeatureStatus.NotStarted, 
-                            FeatureDescription = "In order to search for items of my interest" +  Environment.NewLine + "As a user" + Environment.NewLine + "I want to be able to search on all the important fields",
+                            Description = "In order to search for items of my interest" +  Environment.NewLine + "As a user" + Environment.NewLine + "I want to be able to search on all the important fields",
                             Size = FeatureSize.L
                         },
                     new Feature
                         {
                             Name = "Logout page", 
                             Status = FeatureStatus.InProgress, 
-                            FeatureDescription = "In order to not be signed in forever" + Environment.NewLine + "As a logged in user" + Environment.NewLine + "I want to be able to logout of the site",
+                            Description = "In order to not be signed in forever" + Environment.NewLine + "As a logged in user" + Environment.NewLine + "I want to be able to logout of the site",
                             Size = FeatureSize.S,
                             AssignedTo = "John",
                             HoursWorked = 2
@@ -54,7 +54,7 @@ namespace FeatureDBWrapper
                         {
                             Name = "Print page", 
                             Status = FeatureStatus.Done,
-                            FeatureDescription = "In order to print the items I've purchased" + Environment.NewLine + "As a user" + Environment.NewLine + "I want to be able to print my shopping cart",
+                            Description = "In order to print the items I've purchased" + Environment.NewLine + "As a user" + Environment.NewLine + "I want to be able to print my shopping cart",
                             Size = FeatureSize.S,
                             AssignedTo = "Marcus",
                             HoursWorked = 6
@@ -63,7 +63,7 @@ namespace FeatureDBWrapper
                         {
                             Name = "Item page", 
                             Status = FeatureStatus.InProgress, 
-                            FeatureDescription = "In order to see information on a particular item" + Environment.NewLine + "As a user" + Environment.NewLine + "I want to be able to show details for an item",
+                            Description = "In order to see information on a particular item" + Environment.NewLine + "As a user" + Environment.NewLine + "I want to be able to show details for an item",
                             Size = FeatureSize.XL,
                             AssignedTo = "John",
                             HoursWorked = 20
@@ -72,7 +72,7 @@ namespace FeatureDBWrapper
                         {
                             Name = "Shopping cart", 
                             Status = FeatureStatus.NotStarted, 
-                            FeatureDescription = "In order to collect the items I want to buy" + Environment.NewLine + "As a user" + Environment.NewLine + "I want to add items to a shopping cart on the site",
+                            Description = "In order to collect the items I want to buy" + Environment.NewLine + "As a user" + Environment.NewLine + "I want to add items to a shopping cart on the site",
                             Size = FeatureSize.L
                         }
              };

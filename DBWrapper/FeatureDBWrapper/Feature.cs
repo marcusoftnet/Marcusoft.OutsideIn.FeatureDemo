@@ -22,7 +22,7 @@
         /// <summary>
         /// The description of the feature for example as an user story
         /// </summary>
-        public string FeatureDescription { get; set; }
+        public string Description { get; set; }
         /// <summary>
         /// The feature status <seealso cref="FeatureStatus"/>
         /// </summary>

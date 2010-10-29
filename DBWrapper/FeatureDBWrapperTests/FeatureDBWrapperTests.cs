@@ -86,7 +86,7 @@ namespace FeatureDBWrapperTests
             var f = new Feature
                         {
                             Name = "Test feature",
-                            FeatureDescription = "Some descriptive text",
+                            Description = "Some descriptive text",
                             Status = FeatureStatus.NotStarted
                         };
 
